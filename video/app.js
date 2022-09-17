@@ -150,11 +150,11 @@ window.addEventListener("load", () => {
       const skipButton = document.querySelector('.skipButton')
       skipButton.addEventListener('click', () => {
         setTimeout(() => {
-          window.location.assign(`https://digiweb-agency.netlify.app/index/index.html`)
+          window.location.assign(`https://museumdemo11.netlify.app/index/index.html`)
         }, 2000)
       })
       setTimeout(() => {
-        window.location.assign(`https://digiweb-agency.netlify.app/index/index.html`)
+        window.location.assign(`https://museumdemo11.netlify.app/index/index.html`)
       }, DURATION)
       // click to play the videos
           // fade out animation
