@@ -321,7 +321,7 @@ a:hover {
 }
 .preview__item-content {
   grid-area: preview-content;
-  max-width: calc(1100px - 80vh);
+  /*max-width: calc(1100px - 80vh);*/
   min-height: 440px;
   line-height: 1.3;
 }
