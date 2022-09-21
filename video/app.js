@@ -1,13 +1,13 @@
 import {Curtains, Plane} from './src/index.mjs';
+ window.location.assign(`https://museumdemo11.netlify.app/home`)
+// let activeTexture = 0;
+// let currentTexture = 0;
+// let transitionTimer = 0;
+// let timer = 0;
+// let isRunning = 0;
 
-let activeTexture = 0;
-let currentTexture = 0;
-let transitionTimer = 0;
-let timer = 0;
-let isRunning = 0;
-
-window.addEventListener("load", () => {
-  window.location.assign(`https://museumdemo11.netlify.app/home`)
+// window.addEventListener("load", () => {
+  // window.location.assign(`https://museumdemo11.netlify.app/home`)
   // set up our WebGL context and append the canvas to our wrapper
   // const curtains = new Curtains({
   //   container: "canvas",
@@ -160,4 +160,4 @@ window.addEventListener("load", () => {
   //     timer += 0.001;
   //     multiTexturesPlane.uniforms.timer.value = timer;
   //   });
-});
+// });
