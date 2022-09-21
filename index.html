@@ -11,12 +11,29 @@
 	<link rel="icon shortcut" href="home/favicon.61719396.ico">
 	<link rel="stylesheet" href="https://use.typekit.net/gyf5muf.css">
 	<link rel="stylesheet" type="text/css" href="home/index.320bd6f3.css">
+    <script
+  src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
 	<script>
 	! function() {
 		document.documentElement.className = "js";
 		var e, t;
 		(t = document.createElement("style")).innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e || alert("Please view this demo in a modern browser that supports CSS Variables.")
 	}();
+    function getBaseUrl(baseUrl){
+        var getUrl = window.location;
+        var baseUrl = getUrl.origin;
+        window.location.origin+window.location.pathname;
+        return baseUrl;
+    }
+    jQuery(document).ready(function(){
+        jQuery('.preview__item-button').each(function(){
+            var getUrl = window.location;
+            // var getUrl = window.location.href;
+            var baseUrl = getUrl.origin;
+            var hreff = jQuery(this).attr('href')
+            jQuery(this).attr("href", baseUrl+hreff)
+        })
+    })
 	</script>
 </head>
 
@@ -86,7 +103,8 @@
 						<div class="preview__item-meta"><span>Acapulco, Mexico</span><span>15/05/2025</span></div>
 						<p class="preview__item-description">Had a barney with the inlaws a bit miffed pigeons in Trafalgar Square nigh on't goggle box chav hard cheese old boy, marvelous Moriarty pulled a right corker squiffy fork out, a tad stupendous chaps doing my head in ee bah gum.</p>
 						<button class="preview__item-info unbutton">+ Info</button>
-						<button class="preview__item-button">Buy Tickets</button>
+						<button class="preview__item-button" onclick="getBaseUrl()">Buy Tickets</button>
+                        <a href="/subcategory%20-%20landing%20page/%CE%B5%CE%B9%CF%83%CE%B1%CE%B3%CF%89%CE%B3%CE%B7/%CE%B5%CE%B9%CF%83%CE%B1%CE%B3%CF%89%CE%B3%CE%B7" class="preview__item-button">Buy Tickets</a>
 					</div>
 				</div>
 				<div class="preview__item" id="preview-2">
