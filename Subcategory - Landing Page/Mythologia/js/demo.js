@@ -464,7 +464,7 @@
     // Initialize events
     initEvents() {
       this.clickRightFn = () => this.navigate("right");
-      // this.DOM.interaction.right.addEventListener("click", this.clickRightFn);
+      this.DOM.interaction.right.addEventListener("click", this.clickRightFn);
 
       this.clickLeftFn = () => this.navigate("left");
       this.DOM.interaction.left.addEventListener("click", this.clickLeftFn);
