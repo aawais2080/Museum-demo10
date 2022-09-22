@@ -1,5 +1,9 @@
 import {Curtains, Plane} from './src/index.mjs';
- window.location.assign(`https://museumdemo11.netlify.app/home`)
+var getUrl = window.location;
+var baseUrl = getUrl.origin;    
+
+baseUrl+location
+ window.location.assign(baseUrl+'home')
 // let activeTexture = 0;
 // let currentTexture = 0;
 // let transitionTimer = 0;

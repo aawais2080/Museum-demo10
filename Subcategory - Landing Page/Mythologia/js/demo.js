@@ -747,9 +747,12 @@ const navigateHandler = (location) =>  {
       duration:1,
       x:"100%"
     })
+    var getUrl = window.location;
+    var baseUrl = getUrl.origin;    
 
+    
     setTimeout(() => {
-      window.location.assign(`https://museumdemo10.netlify.app/${location}`)
+      window.location.assign(baseUrl+location)
     }, 1500)
 }
 

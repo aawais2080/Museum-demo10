@@ -148,13 +148,15 @@ window.addEventListener("load", () => {
       })
       let DURATION = 10000
       const skipButton = document.querySelector('.skipButton')
+      var getUrl = window.location;
+      var baseUrl = getUrl.origin;    
       skipButton.addEventListener('click', () => {
         setTimeout(() => {
-          window.location.assign(`https://museumdemo11.netlify.app/home`)
+          window.location.assign(baseUrl+'/home')
         }, 2000)
       })
       setTimeout(() => {
-        window.location.assign(`https://museumdemo11.netlify.app/home`)
+        window.location.assign(baseUrl+'/home')
       }, DURATION)
       // click to play the videos
           // fade out animation

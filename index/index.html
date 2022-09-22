@@ -104,11 +104,21 @@
     </style>
     <!-- font family -->
     <link rel="stylesheet" href="https://fonts.google.com/specimen/EB+Garamond">
-
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
     <script>
         window.VENUS = {
             path: '',
         };
+
+        jQuery(document).ready(function(){
+            jQuery('.preview__item-button').each(function(){
+                var getUrl = window.location;
+                // var getUrl = window.location.href;
+                var baseUrl = getUrl.origin;
+                var hreff = jQuery(this).attr('href')
+                jQuery(this).attr("href", baseUrl+hreff)
+            })
+        })
     </script>
 
 </head>
@@ -135,19 +145,19 @@
                 <ul class="">
                     <li>
                         <!-- ----  Menu  ---- -->
-                        <a href="https://museumdemo11.netlify.app/subcategory%20-%20landing%20page/dist/landing.index"
+                        <a class="preview__item-button" href="/subcategory%20-%20landing%20page/dist/landing.index"
                             class="v-al">
                             <split-hover-text></split-hover-text>
                         </a>
                     </li>
                     <li>
-                        <a href="https://museumdemo11.netlify.app/subcategory%20-%20landing%20page/dist/landing.index"
+                        <a class="preview__item-button" href="/subcategory%20-%20landing%20page/dist/landing.index"
                             class="v-al ">
                             <split-hover-text></split-hover-text>
                         </a>
                     </li>
                     <li>
-                        <a href="https://museumdemo11.netlify.app/subcategory%20-%20landing%20page/dist/landing.index"
+                        <a class="preview__item-button" href="/subcategory%20-%20landing%20page/dist/landing.index"
                             class="v-al ">
                             <split-hover-text></split-hover-text>
                         </a>
@@ -178,11 +188,11 @@
                     <div class="popup-menu__languages v-menu__el" style="display: none;">
                         <ul>
                             <li>
-                                <a href="https://museumdemo11.netlify.app/subcategory%20-%20landing%20page/dist/landing.index"
+                                <a class="preview__item-button" href="/subcategory%20-%20landing%20page/dist/landing.index"
                                     class=" active">fr</a>
                             </li>
                             <li>
-                                <a href="https://museumdemo11.netlify.app/subcategory%20-%20landing%20page/dist/landing.index"
+                                <a class="preview__item-button" href="/subcategory%20-%20landing%20page/dist/landing.index"
                                     class="">en</a>
                             </li>
                         </ul>
@@ -191,31 +201,31 @@
                     <nav class="popup-menu__nav">
                         <ul class="">
                             <li class="v-menu__el">
-                                <a href="https://museumdemo11.netlify.app/subcategory%20-%20landing%20page/dist/landing.index"
+                                <a class="preview__item-button" href="/subcategory%20-%20landing%20page/dist/landing.index"
                                     class="v-al ">
                                     <span>Accueil</span>
                                 </a>
                             </li>
                             <li class="v-menu__el">
-                                <a href="https://museumdemo11.netlify.app/subcategory%20-%20landing%20page/dist/landing.index"
+                                <a class="preview__item-button" href="/subcategory%20-%20landing%20page/dist/landing.index"
                                     class="v-al ">
                                     <span>Qui sommes nous</span>
                                 </a>
                             </li>
                             <li class="v-menu__el">
-                                <a href="https://museumdemo11.netlify.app/subcategory%20-%20landing%20page/dist/landing.index"
+                                <a class="preview__item-button" href="/subcategory%20-%20landing%20page/dist/landing.index"
                                     class="v-al active">
                                     <span>Réalisations</span>
                                 </a>
                             </li>
                             <li class="v-menu__el">
-                                <a href="https://museumdemo11.netlify.app/subcategory%20-%20landing%20page/dist/landing.index"
+                                <a class="preview__item-button" href="/subcategory%20-%20landing%20page/dist/landing.index"
                                     class="v-al ">
                                     <span>Produits</span>
                                 </a>
                             </li>
                             <li class="v-menu__el">
-                                <a href="https://museumdemo11.netlify.app/subcategory%20-%20landing%20page/dist/landing.index"
+                                <a class="preview__item-button" href="/subcategory%20-%20landing%20page/dist/landing.index"
                                     class="v-al ">
                                     <span>Contacts</span>
                                 </a>
@@ -334,9 +344,11 @@
         integrity="sha256-Ma7RFL/ajnMYYVm0iyAqCA2j+jWid5Xr2DQr+kYG1XA=" crossorigin="anonymous" defer></script>
     <script src="https://luxam.fr/assets/js/app.5fbe0ce95e75ea944a3a.js" defer></script>
     <script>
+        var getUrl = window.location;
+        var baseUrl = getUrl.origin;
         const clickHandler = (location) => {
             setTimeout(() => {
-                window.location.assign(`https://museumdemo11.netlify.app//${location}`)
+                window.location.assign(baseUrl+location)
             }, 1000)
             const pt_page = document.querySelector('.pt-page')
             pt_page.classList.add('pt-page-scaleDownUp')

@@ -17,10 +17,22 @@
     <link rel="stylesheet" type="text/css" href="index.df8e917f.css">
     <link rel="stylesheet" type="text/css" href="../menu.css" />
     <link rel="stylesheet" href="https://fonts.google.com/specimen/EB+Garamond">
-    <link rel="stylesheet" href="../general.css"> </link>
+    <link rel="stylesheet" href="../general.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js">
     </script>
     <script>!function () { document.documentElement.className = "js"; var e, t; (t = document.createElement("style")).innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e || alert("Please view this demo in a modern browser that supports CSS Variables.") }();
+    </script>
+    <script>
+        jQuery(document).ready(function(){
+            jQuery('.preview__item-button').each(function(){
+                var getUrl = window.location;
+                // var getUrl = window.location.href;
+                var baseUrl = getUrl.origin;
+                var hreff = jQuery(this).attr('href')
+                jQuery(this).attr("href", baseUrl+hreff)
+            })
+        })
     </script>
 </head>
 
@@ -39,22 +51,22 @@
 				<nav class="main-nav">
                     <ul class="main-nav__fallback">
 						<li>
-							<a href="https://museumdemo10.netlify.app/subcategory%20-%20landing%20page/Απαρχές/aπαρχές.html">Απαρχές </a>
+							<a class="preview__item-button" href="/subcategory%20-%20landing%20page/Απαρχές/aπαρχές.html">Απαρχές </a>
 						</li>
 						<li>
-							<a href="https://museumdemo10.netlify.app/subcategory%20-%20landing%20page/Mythologia/mythologia.html">Μυθολογία </a>
+							<a class="preview__item-button" href="/subcategory%20-%20landing%20page/Mythologia/mythologia.html">Μυθολογία </a>
 						</li>
 						<li>
-							<a href="https://museumdemo10.netlify.app/subcategory%20-%20landing%20page/Ιδεώδη/Ιδεώδη.html">Ιδεώδη</a>
+							<a class="preview__item-button" href="/subcategory%20-%20landing%20page/Ιδεώδη/Ιδεώδη.html">Ιδεώδη</a>
 						</li>
 						<li>
-							<a href="https://museumdemo10.netlify.app/subcategory%20-%20landing%20page/Αγωνίσματα/Αγωνίσματα.html">Αγωνίσματα</a>
+							<a class="preview__item-button" href="/subcategory%20-%20landing%20page/Αγωνίσματα/Αγωνίσματα.html">Αγωνίσματα</a>
 						</li>
 						<li>
-							<a href="https://museumdemo10.netlify.app/subcategory%20-%20landing%20page/Texnologia/texnologia.html">Τεχνολογία</a>
+							<a class="preview__item-button" href="/subcategory%20-%20landing%20page/Texnologia/texnologia.html">Τεχνολογία</a>
 						</li>
 						<li>
-							<a href="https://museumdemo10.netlify.app/subcategory%20-%20landing%20page/Επαθλα/Επαθλα.html">Επαθλα</a>
+							<a class="preview__item-button" href="/subcategory%20-%20landing%20page/Επαθλα/Επαθλα.html">Επαθλα</a>
 						</li>
 					</ul>
 					<label class="main-nav__close nav-toggle" for="main-nav-toggle" tabindex="0" aria-label="Close menu">
