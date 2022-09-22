@@ -349,7 +349,7 @@ a:hover {
   color: #fff;
   border: 0;
   border-radius: 2rem;
-  text-transform: uppercase;
+  text-transform: none;
   font-family: "EB+Garamond";
   font: inherit;
   font-size: 0.875rem;
