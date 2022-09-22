@@ -255,9 +255,9 @@ body {
 	--color-caption: #000;
 	--color-content: #000;
 	color: var(--color-text);
-    background-image: url(../img/bg7.jpg);
+        background-image: url(../img/bg7.jpg);
 	background-size: cover;
-	font-family: transat-text, sans-serif;
+	font-family: "EB+Garamond";
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	text-rendering: optimizeLegibility;
@@ -806,8 +806,7 @@ main {
 	position: absolute;
 	left: 12%;
 	top: 5%;
-	/*font-family: "EB+Garamond";*/
-	font-family: 'Proza Libre', sans-serif;
+	font-family: "EB+Garamond";
 	z-index: 1;
 }
 
