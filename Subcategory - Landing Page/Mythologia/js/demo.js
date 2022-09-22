@@ -390,7 +390,7 @@
       );
       // Total number of slides
       this.slidesTotal = this.slides.length;
-      if (this.slidesTotal < 4) return;
+      if (this.slidesTotal < 3) return;
       // Center slide's position
       this.center = 0;
 
