@@ -399,7 +399,7 @@ main {
 
 content__item-copy-text {
         font-family: "EB+Garamond";
-	font-size: 25px;
+	font-size: 50px !important;
 }
 
 .revealer {
