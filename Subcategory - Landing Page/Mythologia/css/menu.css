@@ -7,7 +7,8 @@ body {
 	--color-focus: #fff;
 	color: var(--color-text);
 	/* background-color: var(--color-bg); */
-	font-family: jaf-bernina-sans, Futura, Arial, sans-serif;
+	/*font-family: jaf-bernina-sans, Futura, Arial, sans-serif;*/
+	font-family: 'Proza Libre', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
