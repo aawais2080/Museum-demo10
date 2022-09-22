@@ -332,10 +332,10 @@ a:hover {
 }
 .preview__item-meta {
   color: var(--color-text-alt);
-  text-transform: uppercase;
+  text-transform: none;
   font-size: 0.857rem;
   padding: 1rem 0 0;
-  font-family: 'Proza Libre', sans-serif;
+  font-family: "EB+Garamond";
 }
 .preview__item-meta span {
   display: block;
