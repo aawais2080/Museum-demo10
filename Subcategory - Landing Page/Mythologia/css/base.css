@@ -51,7 +51,9 @@ a:hover {
 }
 
 .content__item-copy-more {
+	padding-top: 25px;
 	cursor: pointer;
+	font-family: "EB+Garamond";
 	font-size: 20px;
 	color: #f3f3f3;
 	font-weight: bold;
@@ -395,11 +397,6 @@ main {
 .content__item-copy {
 	padding: 2rem;
 	font-family: "EB+Garamond";
-}
-
-content__item-copy-text {
-        font-family: "EB+Garamond";
-	font-size: 50px !important;
 }
 
 .revealer {
