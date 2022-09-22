@@ -31,9 +31,7 @@ audio:not([controls]) {
 }
 
 html {
-	/*font-family:"EB+Garamond";*/
-	font-family: 'Proza Libre', sans-serif;
-	/*font-family:sans-serif;*/
+	font-family:"EB+Garamond";
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 }
@@ -98,8 +96,7 @@ code,
 kbd,
 pre,
 samp {
-	/*font-family: "EB+Garamond";*/
-	font-family: 'Proza Libre', sans-serif;
+	font-family: "EB+Garamond";
 	font-size: 1em;
 }
 
@@ -158,8 +155,7 @@ button,
 input,
 select,
 textarea {
-	/*font-family: "EB+Garamond";*/
-	font-family: 'Proza Libre', sans-serif;
+	font-family: "EB+Garamond";
 	font-size: 100%;
 	margin: 0;
 }
@@ -372,8 +368,7 @@ main {
 }
 
 .content__item-header-title {
-	/*font-family: "EB+Garamond";*/
-	font-family: 'Proza Libre', sans-serif;
+	font-family: "EB+Garamond";
 	font-weight: 600;
 	font-size: 3rem;
 	margin: 0;
@@ -399,7 +394,7 @@ main {
 
 .content__item-copy {
 	padding: 2rem;
-	font-family: linotype-didot, serif;
+	font-family: "EB+Garamond";
 }
 
 .revealer {
@@ -480,8 +475,7 @@ main {
 .grid__item--title {
 	font-size: 3vw;
 	margin: 0;
-	/*font-family: "EB+Garamond";*/
-	font-family: 'Proza Libre', sans-serif;
+	font-family: "EB+Garamond";
 	font-weight: 600;
 	/*color: var(--color-title);*/
 	color: #e3e3e3;
@@ -796,7 +790,7 @@ main {
 	border: none;
 	color: white;
 	background: none;
-    font-family: 'Lobster Two', cursive;
+        font-family: "EB+Garamond";
 }
 
 .title {
