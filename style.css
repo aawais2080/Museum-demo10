@@ -2,6 +2,10 @@ body.compensate-for-scrollbar {
   overflow: hidden
 }
 
+body {
+font-family: "EB+Garamond"!important;
+}
+
 .v-al {
   font-family: "EB+Garamond";
 }
@@ -11,7 +15,7 @@ html,
 input,
 select,
 textarea {
-  font-family: "EB+Garamond";
+font-family: "EB+Garamond";
 }
 
 .fancybox-active {
