@@ -2,9 +2,18 @@ body.compensate-for-scrollbar {
   overflow: hidden
 }
 
+ /* ---- */
+
 body {
 font-family: "EB+Garamond"!important;
 }
+
+.preview__item-title {
+font-family: "EB+Garamond"!important;
+}
+
+
+/* --- */
 
 .v-al {
   font-family: "EB+Garamond";
