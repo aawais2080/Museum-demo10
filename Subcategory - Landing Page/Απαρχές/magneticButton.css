@@ -55,12 +55,12 @@ main {
 	padding: 0;
 	margin-bottom: 1.5rem;
 	/* margin: 1rem; */
-	font-family: inherit;
+	font-family: "EB+Garamond";
 	font-size: 0.7rem;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-    position: relative;
+        position: relative;
     
 }
 
