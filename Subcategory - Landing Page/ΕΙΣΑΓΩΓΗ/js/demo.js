@@ -749,7 +749,7 @@ const navigateHandler = (location) =>  {
     })
 
     setTimeout(() => {
-      window.location.assign(`https://museumdemo10.netlify.app/${location}`)
+      window.location.assign(`https://museumdemo11.netlify.app/${location}`)
     }, 1500)
 }
 
