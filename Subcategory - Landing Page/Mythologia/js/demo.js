@@ -390,7 +390,7 @@
       );
       // Total number of slides
       this.slidesTotal = this.slides.length;
-      if (this.slidesTotal < 3) return;
+      if (this.slidesTotal < 2) return;
       // Center slide's position
       this.center = 0;
 
@@ -708,7 +708,8 @@ const gsapLanding = gsap.to(".gsap-landing", {
   stagger: 0.05,
 });
 
-const gsapLandingText = gsap.fromTo(".gsap-landing-text", {opacity:0, y:"100%"} , {
+// const gsapLandingText = gsap.fromTo(".gsap-landing-text", {opacity:0, y:"100%"} , {
+  const gsapLandingText = gsap.fromTo(".grid__item.grid__item--title.grid__item--left, .grid__item.grid__item--title.grid__item--center, .grid__item.grid__item--title.grid__item--right", {opacity:0, y:"100%"} , {
   delay:1,
   opacity: 1,
   ease: "Expo.easeInOut",

@@ -480,6 +480,12 @@ main {
 	font-weight: 600;
 	/*color: var(--color-title);*/
 	color: #e3e3e3;
+	opacity: 0;
+}
+.grid__item.grid__item--title.grid__item--center,
+.grid__item.grid__item--title.grid__item--right,
+.grid__item.grid__item--title.grid__item--left{
+	opacity: 1;
 }
 
 .grid__item--title span {
