@@ -48,8 +48,8 @@ body {
 	padding: 0;
 	margin-bottom: 1.5rem;
 	/* margin: 1rem; */
-	/*font-family: "EB+Garamond";*/
-	font-family: 'Proza Libre', sans-serif;
+	font-family: "EB+Garamond";
+	/*font-family: 'Proza Libre', sans-serif;*/
 	font-size: 0.7rem;
 	display: flex;
 	align-items: center;

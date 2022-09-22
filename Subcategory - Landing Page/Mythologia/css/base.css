@@ -52,8 +52,8 @@ a:hover {
 
 .content__item-copy-more {
 	cursor: pointer;
-	/*font-family: "EB+Garamond";*/
-	font-family: 'Proza Libre', sans-serif;
+	font-family: "EB+Garamond";
+	/*font-family: 'Proza Libre', sans-serif;*/
 	font-size: 20px;
 	color: #f3f3f3;
 	font-weight: bold;
@@ -98,8 +98,8 @@ code,
 kbd,
 pre,
 samp {
-	/*font-family: "EB+Garamond";*/
-	font-family: 'Proza Libre', sans-serif;
+	font-family: "EB+Garamond";
+	/*font-family: 'Proza Libre', sans-serif;*/
 	font-size: 1em;
 }
 
@@ -158,8 +158,8 @@ button,
 input,
 select,
 textarea {
-	/*font-family: "EB+Garamond";*/
-	font-family: 'Proza Libre', sans-serif;
+	font-family: "EB+Garamond";
+	/*font-family: 'Proza Libre', sans-serif;*/
 	font-size: 100%;
 	margin: 0;
 }
@@ -256,8 +256,8 @@ body {
 	color: var(--color-text);
         background-image: url(../img/bg7.jpg);
 	background-size: cover;
-	/*font-family: "EB+Garamond";*/
-	font-family: 'Proza Libre', sans-serif;
+	font-family: "EB+Garamond";
+	/*font-family: 'Proza Libre', sans-serif;*/
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	text-rendering: optimizeLegibility;
@@ -373,8 +373,8 @@ main {
 }
 
 .content__item-header-title {
-	/*font-family: "EB+Garamond";*/
-	font-family: 'Proza Libre', sans-serif;
+	font-family: "EB+Garamond";
+	/*font-family: 'Proza Libre', sans-serif;*/
 	font-weight: 600;
 	font-size: 3rem;
 	margin: 0;
@@ -400,8 +400,8 @@ main {
 
 .content__item-copy {
 	padding: 2rem;
-	/*font-family: "EB+Garamond";*/
-	font-family: 'Proza Libre', sans-serif;
+	font-family: "EB+Garamond";
+	/*font-family: 'Proza Libre', sans-serif;*/
 }
 
 .revealer {
@@ -482,8 +482,8 @@ main {
 .grid__item--title {
 	font-size: 3vw;
 	margin: 0;
-	/*font-family: "EB+Garamond";*/
-	font-family: 'Proza Libre', sans-serif;
+	font-family: "EB+Garamond";
+	/*font-family: 'Proza Libre', sans-serif;*/
 	font-weight: 600;
 	/*color: var(--color-title);*/
 	color: #e3e3e3;
@@ -807,8 +807,8 @@ main {
 	border: none;
 	color: white;
 	background: none;
-    /*font-family: "EB+Garamond";*/
-    font-family: 'Proza Libre', sans-serif;
+    font-family: "EB+Garamond";
+    /*font-family: 'Proza Libre', sans-serif;*/
 }
 
 .title {
@@ -817,8 +817,8 @@ main {
 	position: absolute;
 	left: 12%;
 	top: 5%;
-	/*font-family: "EB+Garamond";*/
-	font-family: 'Proza Libre', sans-serif;
+	font-family: "EB+Garamond";
+	/*font-family: 'Proza Libre', sans-serif;*/
 	z-index: 1;
 }
 
