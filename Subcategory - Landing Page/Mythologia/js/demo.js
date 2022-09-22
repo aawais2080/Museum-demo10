@@ -699,7 +699,8 @@
   );
 }
 
-const gsapLanding = gsap.to(".gsap-landing", {
+// const gsapLanding = gsap.to(".gsap-landing", {
+  const gsapLanding = gsap.to(".grid__item--center, .grid__item--left, .grid__item--right", {
   delay:1,
   opacity: 1,
   ease: "Expo.easeInOut",
@@ -707,9 +708,10 @@ const gsapLanding = gsap.to(".gsap-landing", {
   y: "0%",
   stagger: 0.05,
 });
-
+  
+  gsap.from(".grid__item.grid__item--title", {opacity:0});
 // const gsapLandingText = gsap.fromTo(".gsap-landing-text", {opacity:0, y:"100%"} , {
-  const gsapLandingText = gsap.fromTo(".grid__item.grid__item--title.grid__item--left, .grid__item.grid__item--title.grid__item--center, .grid__item.grid__item--title.grid__item--right", {opacity:0, y:"100%"} , {
+  const gsapLandingText = gsap.fromTo(".grid__item--left, .grid__item--center, .grid__item--right", {opacity:0} , {
   delay:1,
   opacity: 1,
   ease: "Expo.easeInOut",

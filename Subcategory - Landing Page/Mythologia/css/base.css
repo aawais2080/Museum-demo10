@@ -481,6 +481,7 @@ main {
 	/*color: var(--color-title);*/
 	color: #e3e3e3;
 	opacity: 0;
+	transform: translate(0px, 0px);
 }
 .grid__item.grid__item--title.grid__item--center,
 .grid__item.grid__item--title.grid__item--right,
@@ -761,12 +762,12 @@ main {
 
 .gsap-landing {
 	opacity: 0;
-	transform: translateY(100%)
+	/*transform: translateY(100%)*/
 }
 
 .gsap-landing-text {
 	opacity: 0;
-	transform: translateY(100%)
+	/*transform: translateY(100%)*/
 }
 
 .transition-page {
