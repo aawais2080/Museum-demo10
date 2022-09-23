@@ -295,7 +295,7 @@ main {
 }
 
 .item {
-    margin: 15vh 0 20vh
+    margin: 10vh 0 10vh
 }
 
 /*.item:last-child {
@@ -310,8 +310,6 @@ main {
     width: 100%;
     min-height: 200px;
     will-change: transform;
-    padding-top: 250px;
-    height: 90vh
 }
 
 .content__img,
