@@ -310,8 +310,9 @@ main {
     width: 100%;
     min-height: 200px;
     will-change: transform;
-    padding-top: 250px;
-    height: 90vh
+    /*padding-top: 250px;
+    height: 90vh*/
+    margin-top: -10px;
 }
 
 .content__img,
