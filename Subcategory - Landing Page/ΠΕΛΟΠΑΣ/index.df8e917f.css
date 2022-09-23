@@ -284,7 +284,9 @@ main {
     align-items: center;
     width: 100%;
     min-height: 200px;
-    will-change: transform
+    will-change: transform;
+    padding-top: 250px;
+    height: 100vh;
 }
 
 .content__img,
