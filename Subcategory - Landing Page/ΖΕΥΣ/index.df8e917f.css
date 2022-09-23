@@ -67,6 +67,8 @@ body {
     right: 10vw;
     border-radius: 999px;
     z-index: 2;
+    --color-link: white;
+    --color-link-hover: black;
 }
 
 .extra-button button {
