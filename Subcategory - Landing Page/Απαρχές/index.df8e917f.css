@@ -64,7 +64,7 @@ body {
 
 
 
-.extra-button {
+/*.extra-button {
     /*width: 5rem !important;*/
     /*min-width: 5rem;
     display: flex;
@@ -78,6 +78,26 @@ body {
     right: 10vw;
     border-radius: 999px;
     z-index: 2;*/
+}*/
+
+.extra-button {
+    width: 5rem;
+    height: 5rem;
+    /* min-width: 5rem; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: black; */
+    background-color: dimgray;
+    color: white;
+    /* height: 2rem; */
+    /* position: fixed; */
+    top: 4%;
+    position: absolute;
+    right: 10vw;
+    border-radius: 999px;
+    z-index: 2;
+    overflow: hidden;
 }
 
 .extra-button button {
