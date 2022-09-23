@@ -11,7 +11,7 @@
 body {
     margin: 0;
     --color-text: #000;
-    --color-link: #d02c0d;
+    --color-link: white;
     --color-link-hover: #000;
     color: var(--color-text);
     background-image: url(../bg/bg3.jpg);
@@ -51,6 +51,19 @@ body {
 
 
 /* ----------  scrollbar - end ---------- */
+
+
+.extra-button {
+    width: 5rem !important;
+    background-color: dimgray !important;
+}
+
+
+.extra-button button {
+    font-family: "EB+Garamond" !important;
+}
+
+
 
 
 
