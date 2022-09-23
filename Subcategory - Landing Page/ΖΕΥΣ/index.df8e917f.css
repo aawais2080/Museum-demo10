@@ -55,14 +55,28 @@ body {
 
 .extra-button {
     width: 5rem !important;
+    min-width: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: dimgray !important;
+    color: white;
+    height: 2rem;
+    position: fixed;
+    top: 4%;
+    right: 10vw;
+    border-radius: 999px;
+    z-index: 2;
 }
-
 
 .extra-button button {
+    list-style: none;
+    border: none;
+    color: white;
+    background: none;
+    letter-spacing: 2px;
     font-family: "EB+Garamond" !important;
 }
-
 
 
 
@@ -131,7 +145,7 @@ body {
     }
 }
 
-/*a {
+a {
     text-decoration: none;
     color: var(--color-link)
 }
@@ -143,7 +157,7 @@ a:hover {
 
 a:hover {
     color: var(--color-link-hover)
-}*/
+}
 
 a:focus {
     outline: none;
