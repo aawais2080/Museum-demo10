@@ -15,7 +15,7 @@
 .transition-page {
     position: absolute;
     top: 0;
-    height: 480vh;
+    height: 0;
     width: 100%;
     opacity: 1;
     background-color: rgb(0, 0, 0);
