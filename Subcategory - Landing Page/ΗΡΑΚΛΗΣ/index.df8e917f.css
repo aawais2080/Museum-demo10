@@ -54,6 +54,26 @@ body {
 /* ----------  scrollbar - end ---------- */
 
 
+.extra-button {
+    width: 5rem;
+    height: 5rem;
+    /* min-width: 5rem; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: dimgray;
+    color: white;
+    margin-top: 1%;
+    /*right: 10vw;*/
+    position: absolute !important;
+    font-family: "EB+Garamond" !important;
+}
+
+
+
+
+
+
 #content-1 .content__text {
     max-width: 120ch;
 }
