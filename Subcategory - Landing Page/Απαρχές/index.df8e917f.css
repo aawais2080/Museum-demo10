@@ -75,11 +75,12 @@ body {
     /* height: 2rem; */
     /* position: fixed; */
     top: 4%;
-    position: absolute;
+    position: absolute !important;
     right: 10vw;
     border-radius: 999px;
     z-index: 2;
     overflow: hidden;
+    font-family: "EB+Garamond" !important;
 }
 
 /*.extra-button button {
@@ -90,7 +91,7 @@ body {
     letter-spacing: 2px;
 }*/
 
-.extra-button button a {
+/*.extra-button button a {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -99,7 +100,7 @@ body {
     height: 100%;
     color: #fff;
     font-family: "EB+Garamond" !important;
-}
+}*/
 
 
 
