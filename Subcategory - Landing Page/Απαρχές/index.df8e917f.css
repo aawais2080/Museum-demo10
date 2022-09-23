@@ -295,6 +295,8 @@ main {
     width: 100%;
     min-height: 200px;
     will-change: transform
+    padding-top: 250px;
+    height: 90vh
 }
 
 .content__img,
@@ -305,8 +307,6 @@ main {
     background-size: cover;
     background-position: 50% 50%;
     will-change: transform
-    padding-top: 250px;
-    height: 90vh
 }
 
 .item__meta {
