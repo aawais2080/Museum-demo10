@@ -305,6 +305,8 @@ main {
     background-size: cover;
     background-position: 50% 50%;
     will-change: transform
+    padding-top: 250px;
+    height: 90vh
 }
 
 .item__meta {
