@@ -32,6 +32,33 @@ body {
 
 /* ----------  scrollbar - start ---------- */
 
+
+.extra-button {
+    width: 5rem !important;
+    height: 5rem !important;
+    margin-top: 1%;
+    /* min-width: 5rem; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: dimgray;
+    color: white;
+    /* height: 2rem; */
+    /* position: fixed; */
+    top: 4%;
+    position: absolute !important;
+    right: 10vw;
+    border-radius: 999px;
+    z-index: 2;
+    overflow: hidden;
+    font-family: "EB+Garamond" !important;
+}
+
+
+
+
+
+
 ::-webkit-scrollbar {
     width: 7px;
 }
