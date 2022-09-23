@@ -12,7 +12,7 @@ body {
     margin: 0;
     --color-text: #000;
     --color-bg: #bec5bd;
-    --color-link: #d02c0d;
+    --color-link: white;
     --color-link-hover: #000;
     color: var(--color-text);
     background-image: url(../bg/bg2.jpg);
@@ -61,6 +61,35 @@ body {
     font-weight: bold;
     margin: 20px auto !important;
 }
+
+
+
+.extra-button {
+    width: 5rem !important;
+    /*min-width: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;*/
+    background-color: dimgray !important;
+   /* color: white;
+    height: 2rem;
+    position: fixed;
+    top: 4%;
+    right: 10vw;
+    border-radius: 999px;
+    z-index: 2;*/
+}
+
+.extra-button button {
+    /*list-style: none;
+    border: none;
+    color: white;
+    background: none;
+    letter-spacing: 2px;*/
+    font-family: "EB+Garamond" !important;
+}
+
+
 
 
 #content-1 .content__text {
