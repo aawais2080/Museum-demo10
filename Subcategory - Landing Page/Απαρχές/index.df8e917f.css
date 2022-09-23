@@ -230,7 +230,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 40vh
+    margin-top: 10vh
 }
 
 .frame__title-wrap {
