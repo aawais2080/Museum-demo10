@@ -374,9 +374,6 @@ main {
     font-weight: 500;
     line-height: 1;
     overflow: hidden;
-    left: 150%;
-    height: 25%;
-    top: -50px;
 }
 
 .item__excerpt-link span {
