@@ -65,8 +65,14 @@ body {
 
 
 .extra-button {
+<<<<<<< HEAD
     /*width: 5rem !important;*/
     /*min-width: 5rem;
+=======
+    width: 5rem !important;
+    height: 5rem !important;
+    /* min-width: 5rem; */
+>>>>>>> parent of b021ee9 (Update index.df8e917f.css)
     display: flex;
     align-items: center;
     justify-content: center;*/
