@@ -551,7 +551,7 @@ main {
         align-items: flex-end;
         line-height: 1.2;
         will-change: transform;
-        height: 370px !important;
+        height: 25% !important;
         justify-content: center;
     }
 
