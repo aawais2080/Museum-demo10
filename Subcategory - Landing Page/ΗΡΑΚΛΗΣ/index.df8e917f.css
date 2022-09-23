@@ -253,7 +253,9 @@ main {
 .item {
     margin: 15vh 0 20vh
 }
-
+.item:last-child {
+    margin-bottom: 5vh;
+}
 .content__imgwrap,
 .item__imgwrap {
     overflow: hidden;
