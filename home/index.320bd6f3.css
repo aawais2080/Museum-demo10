@@ -272,6 +272,7 @@ a:hover {
   grid-template-areas: "preview-back preview-back" "preview-img preview-title" "preview-content preview-content";
 }
 .js .preview__item {
+  /* margin-top: -150px; */
   perspective: 1000px;
 }
 .js .preview__item:not(.preview__item--open) {
@@ -370,8 +371,8 @@ a:hover {
   display: none;
 }
 @media screen and (min-width: 53em) {
-  body,
-  html,
+  /* body,
+  html, */
   main {
     overflow: hidden;
   }
