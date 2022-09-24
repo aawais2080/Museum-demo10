@@ -28,9 +28,6 @@ body {
     overflow-y: scroll
 }
 
-.item:last-child {
-    margin-bottom: 1vh;
-}
 
 
 /* ----------  scrollbar - start ---------- */
